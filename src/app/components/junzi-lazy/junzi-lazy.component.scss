@@ -1,0 +1,20 @@
+$fm-blue: #adadff;
+
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: $fm-blue;
+    height: 44px;
+    width: 100%;
+    padding: 4px 0;
+}
+.container {
+    img {
+        background-color: #f0f0f0;
+        display: block;
+        height: 450px;
+        width: 800px;
+        margin: 10px auto;
+    }
+}
