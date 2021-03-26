@@ -2,6 +2,12 @@
     <img src="./assets/images/forthmedia-logo-transparent.png"/>
 </header>
 <section class="container">
+    <h1>Mars 2020 Perseverance Rover - Entry, Descent, and Landing</h1>
+    <p>
+        This page uses <em>lazy loading</em> technique to delay images outside
+        of the viewport. How does it work? In Angular?
+        <a href="https://github.com/forthmedia/junzi">See the code on GitHub</a>
+    </p>
     <img [src]="image"/>
     <ng-container *ngFor="let d of deferred">
         <img fmLazy [url]="d"/>

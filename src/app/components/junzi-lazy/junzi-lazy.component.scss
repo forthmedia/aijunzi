@@ -1,4 +1,4 @@
-$fm-blue: #adadff;
+@import '../../../styles.scss';
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,9 @@ header {
     padding: 4px 0;
 }
 .container {
+    h1, p {
+        text-align: center;
+    }
     img {
         background-color: #f0f0f0;
         display: block;
