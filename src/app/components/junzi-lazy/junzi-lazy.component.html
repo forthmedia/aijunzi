@@ -3,4 +3,7 @@
 </header>
 <section class="container">
     <img src="/assets/images/mpav-1.png"/>
+    <ng-container *ngFor="let d of deferred">
+        <img fmLazy [url]="d"/>
+    </ng-container>
 </section>
