@@ -20,6 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "./",
             "crossOrigin": "use-credentials",
             "outputPath": "dist/junzi",
             "index": "src/index.html",
@@ -69,6 +70,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+            "baseHref": "/",
             "browserTarget": "junzi:build"
           },
           "configurations": {
