@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./junzi-lazy.component.scss']
 })
 export class JunziLazyComponent {
+  image: string = '/assets/images/mpav-1.png';
   deferred: string[] = [
     '/assets/images/mpav-2.png',
     '/assets/images/mpav-3.png',
