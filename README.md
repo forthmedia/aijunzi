@@ -6,7 +6,7 @@ Herein, I'll assume you know enough *JavaScript* and *Angular* to follow along.
 
 ### Lazy Loading
 
-[See this code in action](https://www.forth-media.com/junzi)
+[See this code in action](https://www.forth-media.com/aijunzi)
 
 The idea behind *lazy loading* of images is to improve page performance by deferring image downloads until your user wants to view them. This can be done with *JavaScript*, but how do you defer setting an HTML IMG SRC attribute in *Angular*, which discourages DOM manipulation?
 
