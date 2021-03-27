@@ -1,4 +1,4 @@
-# Junzi
+# AI Junzi
 
 Forthmedia JavaScript coding project. Herein, I'll assume you know enough *JavaScript* and *Angular* to follow along.
 
