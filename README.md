@@ -1,6 +1,6 @@
 # AI Junzi
 
-A junzi is someone who strives to improve themself. Their personality, their communication, their coding, whatever. A sage is very hard to become. Anyone can be a junzi.
+A junzi is someone who strives to improve themselves. Their personality, their communication, their coding, whatever. A sage is very hard to become. Anyone can be a junzi.
 
 Herein, I'll assume you know enough *JavaScript* and *Angular* to follow along.
 
