@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   providers: [Location, {provide: LocationStrategy, useClass: PathLocationStrategy}]
 })
 export class AppComponent {
-  title = 'junzi';
+  title = 'aijunzi';
   location: Location;
 
   constructor(location: Location) {

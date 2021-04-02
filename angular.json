@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "junzi": {
+    "aijunzi": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -22,7 +22,7 @@
           "options": {
             "baseHref": "./",
             "crossOrigin": "use-credentials",
-            "outputPath": "dist/junzi",
+            "outputPath": "dist/aijunzi",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -30,7 +30,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/.htaccess"
             ],
             "styles": [
               "src/styles.scss"
@@ -71,18 +72,18 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "baseHref": "/",
-            "browserTarget": "junzi:build"
+            "browserTarget": "aijunzi:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "junzi:build:production"
+              "browserTarget": "aijunzi:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "junzi:build"
+            "browserTarget": "aijunzi:build"
           }
         },
         "test": {
@@ -119,16 +120,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "junzi:serve"
+            "devServerTarget": "aijunzi:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "junzi:serve:production"
+              "devServerTarget": "aijunzi:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "junzi"
+  "defaultProject": "aijunzi"
 }
